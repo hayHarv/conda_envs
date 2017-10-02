@@ -1,0 +1,23 @@
+name: jeopyrdy 
+dependencies:
+# set python version
+- python=3
+- numpy
+- scipy
+- scikit-learn
+- pandas
+- matplotlib
+- seaborn
+- sqlite
+- setuptools
+# jedi for completion
+- jedi
+# optional only needed if jupyter work is expected
+- jupyter
+- nb_conda
+- nb_conda_kernels
+# add other dependencies below:
+- flask
+- pip
+                
+        

@@ -1,0 +1,22 @@
+name: pynlp 
+dependencies:
+# set python version
+- python=3
+- numpy
+- scipy
+- scikit-learn
+- pandas
+- matplotlib
+- seaborn
+- pip
+# jedi for completion
+- jedi
+# optional only needed if jupyter work is expected
+- jupyter
+- nb_conda
+# add other dependencies below:
+- nltk
+- pip:
+    - textblob
+                
+        
