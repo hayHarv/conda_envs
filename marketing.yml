@@ -1,0 +1,24 @@
+name: marketing
+dependencies:
+# set python version
+- python=3.6
+- numpy
+- scipy
+- scikit-learn
+- pandas
+- matplotlib
+- seaborn
+- pip
+- bokeh
+# jedi for completion
+- jedi
+# optional only needed if jupyter work is expected
+- jupyter
+- nb_conda
+- nb_conda_kernels
+# add other dependencies below:
+
+
+
+                
+        
